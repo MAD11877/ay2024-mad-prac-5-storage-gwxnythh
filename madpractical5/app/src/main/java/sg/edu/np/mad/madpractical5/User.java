@@ -9,6 +9,7 @@ public class User implements Serializable {
     public int id;
     public boolean followed;
 
+    // User
     public User(String name, String description, int id, boolean followed) {
         this.name = name;
         this.description = description;
